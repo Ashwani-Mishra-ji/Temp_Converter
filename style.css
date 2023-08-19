@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(227, 148, 45);
+}
+.main{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100wh;
+}
+.box{
+  
+   
+        background-color: lightsalmon;
+        border-radius: 50px;
+        box-sizing:900px 500px 500px 500x rgba(169, 26, 26, 0.1);
+        padding: 50px 20px;
+        /* max-width: 250%; */
+        width: 250px; 
+        margin-top: 250px;
+        /* margin-left: 250px; */
+        height: 250px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+
